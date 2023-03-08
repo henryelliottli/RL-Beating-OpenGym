@@ -1,0 +1,14 @@
+# RL-Beating-OpenGym
+
+How to run:
+Ensure all packages have been installed.
+
+
+To train an image based model and output the metrics run `python main.py <Game Name>`  
+  ex: `python main.py Breakout`  
+  
+Then once the model has been fully trained and saved run   
+  `python test.py <Game Name>`  
+in order to render the images and watch the model play the game.   
+  
+Lastly, given the trained model run TSNE by following the example in `example_tsne.ipynb` in the tsne folder   
