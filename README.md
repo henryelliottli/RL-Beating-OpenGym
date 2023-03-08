@@ -12,3 +12,11 @@ Then once the model has been fully trained and saved run
 in order to render the images and watch the model play the game.   
   
 Lastly, given the trained model run TSNE by following the example in `example_tsne.ipynb` in the tsne folder   
+
+## Examples
+
+# Mario N64
+![My Image](examples/mario-run.gif)
+
+# Boxing Atari
+![My Image](examples/boxing-game.gif)
