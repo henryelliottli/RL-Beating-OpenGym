@@ -13,6 +13,10 @@ in order to render the images and watch the model play the game.
   
 Lastly, given the trained model run TSNE by following the example in `example_tsne.ipynb` in the tsne folder   
 
+## TSNE Example
+
+![My Image](tsne/breakout-tsne.png)
+
 ## Examples
 
 # Mario N64
