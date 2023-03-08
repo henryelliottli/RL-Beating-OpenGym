@@ -1,0 +1,37 @@
+{
+  "_game_comments": {
+    "_game_name": "Use Breakout, Boxing, or mario",
+    "_use_ram": "if true then the ram version of game_name will be used. ram is not supported on mario",
+    "_resume_training":  "if true than the training will continue where it left of. if false the _experiment_dir will erased and recreated",
+    "_num_stacked_frames": "how many frames continuous frames to pass into the network for a single training step"
+  },
+  "game": {
+    "game_name": "Breakout",
+    "use_ram": true,
+    "resume_training": false,
+    "num_stacked_frames": 4
+  },
+
+  "_experiment_comments":   {
+    "_experiment_dir": "The name of the directory used to save training so it can be reloaded",
+    "_save_frequency": "Will save the model after this many epochs passed since last save",
+    "_render_env": "if true then the game environment will be shown during training.",
+    "_soft_update": "Updates the target network after every time step by adding a small portion of the online network's weight rather than copying the online networks parameters every copy_step epochs.",
+    "_tau": "This determines the how much of the proportion of the online networks to use with soft_update"
+  },
+  "experiment": {
+    "experiment_dir": "Breakout_ram_small_lr",
+    "copy_step": 10,
+    "min_eps": 0.10,
+    "epochs": 50000,
+    "decay": 0.9997,
+    "lr": 1e-2,
+    "gamma": 0.99, 
+    "min_exp": 100,
+    "max_exp": 10000,
+    "save_frequency": 100,
+    "render_env": true,
+    "soft_update": false,
+    "tau": 0.01
+  }
+}
