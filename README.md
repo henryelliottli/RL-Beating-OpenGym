@@ -17,7 +17,7 @@ Lastly, given the trained model run TSNE by following the example in `example_ts
 
 ![My Image](tsne/breakout-tsne.png)
 
-# TSNE clustering of RAM based model’s best action(labels) Q value pairs in the game
+#### TSNE clustering of RAM based model’s best action(labels) Q value pairs in the game
 
 ## Examples
 
